@@ -2,5 +2,12 @@
   @html.block('content', function(model) {
     <h1>@model.title</h1>
     <p>Welcome to @model.title</p>
+
+
+
+    <script src="/javascripts/dummy.js"></script>
+    <script type="text/javascript">
+        debugger;
+    </script>
   })
 })
